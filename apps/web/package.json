@@ -9,18 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@snapvite/ui": "workspace:*",
     "next": "^13.4.19",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@snapvite/ui": "workspace:*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.19",
+    "@snapvite/tailwind-config": "workspace:*",
+    "eslint-config-custom": "workspace:*",
+    "@snapvite/tsconfig": "workspace:*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
-    "@snapvite/eslint-config-custom": "workspace:*",
-    "@snapvite/tsconfig": "workspace:*",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
     "typescript": "^4.5.3"
   }
 }
